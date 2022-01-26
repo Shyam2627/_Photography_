@@ -1,0 +1,107 @@
+body{
+  font-family:Arial;
+ background:#eee;
+ margin:0;
+ height:auto;
+ }
+ h1{
+	 font-weight:400;
+	 font-size:40px;
+	 margin:0;
+ }
+ h2{
+	 font-weight:400;
+	 font-size:24px;
+	 margin:0;
+ }
+ img{
+	 display:block;
+	 width:100%;
+ }
+ main{
+	 max-width:900px;
+	 margin:auto;
+	 box-shadow:5px 10px 18px #888888;
+ }
+ #front{
+	 background:#fff;
+ }
+ #front-text{
+	 display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  text-align:cenetr;
+  align-items:center;
+  justify-content:center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+ }
+	 
+ #front-text h2{
+	 color:#888;
+ }
+ #front-image{
+	 background:  url('images/julius-drost-dS-q7-zkD9c-unsplash.jpg');
+	  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+ }
+ .button {
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 32 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+
+.button:hover {
+  background: #f4f4f4;
+}
+#header{
+	padding:1.5rem;
+	text-align:center;
+  background: #333;
+  color: #fff;
+ 
+}
+#header h2{
+	 border-left:dotted 1px #fff;
+  border-right:dotted 1px #fff;
+   display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+.end{
+	font-family:Arial;
+	text-align:center;
+	font-weight:bold;
+	color:darkcyan;
+	font-size:40px;
+}
+	
+	
+
+@media (min-width: 500px) {
+  #front {
+    display: flex;
+    height: 100%;
+  }
+
+  #front-text {
+    height: 100vh;
+  }
+
+  #front-image {
+    height: 100vh;
+  }
+}
